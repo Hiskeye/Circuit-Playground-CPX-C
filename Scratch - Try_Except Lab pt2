@@ -1,0 +1,11 @@
+# this is my number guessing program
+print('This is a Guessing Game')
+print("Ready to play?")
+
+
+try:
+    
+    X = input("Enter a number from 0 to 10: ")
+    print(input)
+except:
+    print(x, " is not a number. Next time ente
