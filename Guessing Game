@@ -1,0 +1,17 @@
+# this is my number guessing program
+print('This is a Guessing Game')
+print("Ready to play?")
+x = 7
+print("7")
+print(type(x))
+
+guess = input("Enter a number:")
+print(guess)
+
+if guess == x :
+        print("Good Guess, you are a Winner 7 is equal to 7")
+        print("All Done!")
+else:
+    print("Better Luck Next time ", guess, "is NOT equal to 7")
+    print("All Done!")
+   
