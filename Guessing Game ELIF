@@ -1,0 +1,20 @@
+# this is my number guessing program
+print('This is a Guessing Game')
+print("Ready to play?")
+x = 6
+
+y = int(input("Enter a number:"))
+if y == x :
+    print("Good Guess, you are a Winner")
+    print("6 is equal to 6")
+    print("All Done!")
+elif y > x : 
+    print("Your guess was ", y, "and the random number was 6")
+    print("Close but no Cigar")
+    print("Your guess is greater than 6")
+else :
+    print("Your guess was ", y, "and the random number was 6")
+    print("Close but no Cigar")
+    print("Your guess is less than 6")
+    print("All Done!")
+    
