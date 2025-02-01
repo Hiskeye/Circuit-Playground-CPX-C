@@ -1,0 +1,5 @@
+# Counting Up By +10
+for my_variable in range(0,151,10) :
+    print(my_variable)
+    print("+10")
+print("WooHoo")
