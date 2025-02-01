@@ -1,0 +1,42 @@
+# LISTS - Append, Extend, Concatenate
+print('''LISTS - Assigning values by using Append, Extend, Concatenate
+Learn more about Lists here:
+https://www.w3schools.com/python/python_lists.asp
+''')      
+print('''
+Challenge #1 Fibonacci
+Run, then Edit the code in the template example:
+      
+fibonacci_sequence = [0,1,1,2,3, 5, 8, 13, 21, 34] ''')
+fib_int1 = input("Enter a number from 0 to 9: ")
+
+try: 
+    fib_int1 = int(fib_int1)
+    print("Your number is", fib_int1)
+    import random
+    print("The randomly chosen number is ", random.randint(0,21))
+    fibonacci_sequence = [0,1]
+    print(fibonacci_sequence)
+
+    # .append method to Appending to the list
+    fibonacci_sequence.append(fibonacci_sequence[fib_int1]+fibonacci_sequence[1])
+
+    # Use the .append to add the next number in the sequence.
+    fibonacci_sequence.append(fibonacci_sequence[0]+fibonacci_sequence[1]+fibonacci_sequence[2])
+    print(fibonacci_sequence)
+
+
+    # Use a for loop to calculate and .append 10 more of the next numbers in the sequence
+    for fib_sum in range (0,9):
+            x = fibonacci_sequence.append(fibonacci_sequence[1]+fibonacci_sequence[2])
+            print(fibonacci_sequence)
+    # Use a for loop to calculate and .extend 10 more of the next numbers in the sequence
+
+    for x in range (10):
+        x = fibonacci_sequence.append(fibonacci_sequence[1]+fibonacci_sequence[2])
+        print(fibonacci_sequence)
+
+except:
+    print("Please try again. Enter a number from 0 to 9: ")
+    fib_int1 = input("Enter a number from 0 to 9: ")
+    print("Your number is", fib_int1)
