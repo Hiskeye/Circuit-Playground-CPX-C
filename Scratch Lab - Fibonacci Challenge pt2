@@ -37,6 +37,7 @@ try:
         print(fibonacci_sequence)
 
 except:
-    print("Please try again. Enter a number from 0 to 9: ")
-    fib_int1 = input("Enter a number from 0 to 9: ")
-    print("Your number is", fib_int1)
+    if fib_int1 > 9:
+        print("Your number is", fib_int1)
+        print("Please try again. Enter a number from 0 to 9: ")
+        fib_int1 = input("Enter a number from 0 to 9: ")
