@@ -1,0 +1,9 @@
+# Print numbers until the user enters 0
+number = int(input('Guess the number: '))
+
+# iterate until the user enters 0
+while number != 0:
+    print(f'Nope! You entered {number}.')
+    number = int(input('Try again. Guess the number: '))
+
+print('You got it! The end.')
