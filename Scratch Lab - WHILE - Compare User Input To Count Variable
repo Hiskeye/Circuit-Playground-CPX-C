@@ -3,7 +3,7 @@
 
 '''
 Coding Challenge:
-WHILE - Compare User Input To Count Variable
+WHILE - Compare User Input To Count Variable '''
 
 count = 0 
 print("Starting Code Challenge")
