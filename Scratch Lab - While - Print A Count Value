@@ -1,0 +1,18 @@
+# Python WHILE - Do Math On User Input Lab - Scratch Pad
+# Use this Replit to try some code... Use it as a scratch pad.
+
+'''
+Coding Challenge:
+WHILE -  Print A Count Value '''
+
+count = 0 
+
+# Your Code Starts Here:
+print("Starting While Loop - Print Count Variable")
+print(count)
+        # Enter Your Code Here:
+while count <= 9:
+    count = count + 1
+    print(count)
+print("Ending While Loop")
+
