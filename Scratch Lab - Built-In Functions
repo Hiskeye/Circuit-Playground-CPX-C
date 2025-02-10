@@ -1,0 +1,14 @@
+print("Hello, world!")
+name = input("What is your name? ")
+print("Hello, " + name)
+number = "42"
+integer = int(number)
+print(type(number))
+x = 10
+abs(x)
+print(x)
+len(number)
+print(number)
+y = int(12.5)
+round(y)
+print (y)
