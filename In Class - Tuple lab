@@ -1,0 +1,19 @@
+def sum_and_avg(sat):
+    l = len(sat)
+    print(l)
+    print(sat)
+    s = 0
+    for i in sat:
+        s = s + i
+    print(s)
+    #s = x + y + z
+    a = s/l
+    return(s,a)
+    
+def main():
+    my_sum_ave_tuple = (3,4,2,6,7,8,)
+    (S, A) = sum_and_avg(my_sum_ave_tuple)
+    print('Sum = ', S)
+    print('Avg = ', A)
+    
+main()
