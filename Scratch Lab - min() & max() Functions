@@ -1,0 +1,7 @@
+my_string = input("Type a sentence :")
+
+print('The variable "my_string" = ',my_string)
+biggest = max(my_string)
+print('The biggest character in the "', my_string,'" is',biggest)
+smallest = min(my_string)
+print('The smallest character in the "', my_string,'" is',smallest)
