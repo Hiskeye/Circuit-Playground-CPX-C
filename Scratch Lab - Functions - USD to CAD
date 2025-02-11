@@ -1,0 +1,12 @@
+USD = int(input("Enter the amount of US dollars: "))
+
+def converter():
+    print("You're amount is ", USD, " dollars")
+    print("Converting it to the Canadian dollar... ")
+    CAD = float(USD*1.27)
+    print("You're amount in the Canadian dollar is ", CAD)
+    
+def main():
+    converter()
+
+main()
