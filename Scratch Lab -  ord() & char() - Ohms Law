@@ -1,0 +1,16 @@
+print(ord('Ω'))
+print("What is the resistance of a circuit with 5 volts and 20mA?")
+print("A circuit with a voltage of 5v and a current of 20mA will require a resistor of 250" + str(chr(937)))
+
+def calculator():
+    voltage = int(input("Now pick an amount to be your voltage (v): "))
+    print("You selected ", voltage, "volts")
+    current = int(input("Now pick an amount to be your current (mA): "))
+    print("You selected ", current, "mA")
+    resistance = (voltage*current)
+    print("The resistance for your equation is", resistance, str(chr(937)))
+    
+def main():
+    calculator()
+    
+main()
