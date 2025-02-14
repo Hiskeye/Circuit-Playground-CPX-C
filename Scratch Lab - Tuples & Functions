@@ -10,10 +10,10 @@ print('This is the value of the Tuple returned')
 my_tuple = (2, 9, 42,76,)
 x = sum_and_avg(my_tuple)
 print(x)
+print(type(my_tuple))
 sum = x[0]
 avg = x[1]
 print('Sum =', sum)
 print('Sum is of type',type(sum))
 print('Avg =', avg)
-print('Avg is of type',type(my_tuple))
-
+print('Avg is of type',type(avg))
