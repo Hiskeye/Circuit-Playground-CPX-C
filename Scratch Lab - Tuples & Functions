@@ -15,4 +15,5 @@ avg = x[1]
 print('Sum =', sum)
 print('Sum is of type',type(sum))
 print('Avg =', avg)
-print('Avg is of type',type(my))
+print('Avg is of type',type(my_tuple))
+
