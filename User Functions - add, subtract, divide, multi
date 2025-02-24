@@ -1,0 +1,51 @@
+import random
+
+input1 = int(input("Enter a number between 1 and 20: "))
+input2 = int(input("Enter another number between 1 and 20: "))
+input3 = int(input("Pick between a number between 1-4: "))
+
+#building the math
+
+def math_add(x,y) :
+    z=x+y
+    return z
+
+def math_subtract(h,f):
+    g=h-f
+    return g
+
+def math_multiply(a,b):
+    c=a*b
+    return c
+
+def math_divide(w,s):
+    d=w/s
+    return d
+
+#bulding the functions
+
+def add():
+    sum = math_add(input1, input2)
+    print("The sum of", input1, "+", input2, "=", sum)
+
+def subtract():
+    difference = math_subtract(input1, input2)
+    print("The difference of", input1, "-", input2, "=", difference)
+
+def multiply():
+    product = math_multiply(input1,input2)
+    print("The product of", input1, "*", input2, "=", product)
+    
+def divide():
+    quotient = math_divide(input1,input2)
+    print("The quotient of", input1, "*", input2, "=", quotient)
+    
+#the actual functions running
+if input3 == 1:
+    subtract()
+elif input3 == 2:
+    multiply()
+elif input3 == 3:
+    divide()
+else:
+    add()
