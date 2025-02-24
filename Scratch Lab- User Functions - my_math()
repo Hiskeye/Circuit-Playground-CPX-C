@@ -1,0 +1,40 @@
+import random
+
+def my_math(x,y) :
+    z=x+y
+    return z
+
+def main():
+    my_num_1 = 5
+    my_num_2 = 2
+    sum = my_math(my_num_1, my_num_2)
+    print("The sum of", my_num_1, "+", my_num_2, "=",sum)
+
+def math_multiply(a,b):
+    c=a*b
+    return c
+
+def multiply():
+    num1 = 6
+    num2 = 12
+    product = math_multiply(num1,num2)
+    print("The product of", num1, "*", num2, "=", product)
+    
+def math_add(w,s):
+    d=w+s
+    return d
+
+def add():
+    ran1 = random.randint(1,10)
+    print(ran1)
+    ran2 = random.randint(1,10)
+    print(ran2)
+    add = math_add(ran1,ran2)
+    if add % 2 != 0:
+        print("The sum of", ran1, "+", ran2, "=", add)
+    else:
+        print("The sum is not odd")
+
+main()
+multiply()
+add()
