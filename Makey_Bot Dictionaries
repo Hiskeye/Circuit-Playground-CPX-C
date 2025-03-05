@@ -1,0 +1,19 @@
+wave_pattern:[deg,time-sec,deg,time-sec,deg,time-sec]
+
+
+makey_bot = {
+'eyes_rgb_status':1 or 0,
+'rgb_eye_color_1':hexcode,
+'rgb_eye_color_2':hexcode,
+'7seg_value':0-9,
+'led_1_status':1 or 0,
+'led_1_blink':time-sec,
+'led_2_status':1 or 0,
+'led_2_blink':time-sec,
+'led_3_status':1 or 0,
+'led_3_blink':time-sec
+}
+
+print(makey_bot)
+
+user = int(input("enter a key number :"))
