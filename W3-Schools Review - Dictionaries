@@ -1,0 +1,6 @@
+thisdict = {
+  "fruits": "banana",
+  "veggies": "eggplant",
+  "protein": "chicken"
+}
+print(thisdict["protein"])
