@@ -1,0 +1,46 @@
+# Opening File Handles and reading data from files
+print('''
+This Lab is about opening a file handle, and 
+printing the file handle.
+
+Hint: Check out W3Schools File Handling
+- https://www.w3schools.com/python/python_file_handling.asp
+      ''')
+# Challenge 1
+# Describe the parts of the file handle
+print('''
+Challenge # 1
+----------------------------------------------------
+Can you explain each part of the file handle? 
+
+What does the following parts of the file handle mean?
+1) _io.TextIOWrapper
+2) name='matrix.txt'
+3) mode='r' 
+4) encoding='UTF-8'>
+      
+Hint: https://www.w3schools.com/python/python_file_handling.asp
+---
+''')
+# -------------------------------------------------
+print('''Answer to Challenge 1
+-------------------------------------------------''')
+# What does the following parts of the file handle mean?
+# 1) _io.TextIOWrapper
+print('- The class _io. means that "_io.TextIOWrapper" provides the methods and attributes that help us to read or write data to and from the file.')
+print('')
+# 2) name='matrix.txt'
+print('- "matrix.txt" means that falls in the SPSS system file that conforms to the dictionary and its case structure. And that the procedures that read matrices from files expect them to be in the matrix file format.')
+print('')
+# 3) mode='r'
+print('- Mode 'r' indicates that file will be open for reading only.')
+print('')
+# 4) encoding='UTF-8'>
+print("- UTF stands for “Unicode Transformation Format”. In this case the '8' means that 8-bit values are used in the encoding.")
+print('')
+# print('The parts of a file handle are:')
+# -----------------------------
+#xfile = open('matrix.txt')
+#print(xfile)
+print('''
+-------------------------------------------------''')
